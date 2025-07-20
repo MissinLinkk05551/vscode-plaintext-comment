@@ -1,0 +1,45 @@
+{
+	"name": "plaintext-comment",
+	"displayName": "Plaintext-Comments",
+	"description": "Add commenting to plaintext & .conf files",
+	"version": "0.0.1",
+	"publisher": "6856f62c-ea41-6e48-a511-0aec622eed2f",
+	"repository": {
+  "type": "git",
+  "url": "https://github.com/MissinLinkk05551/vscode-plaintext-comment.git"
+  },
+	"icon": "icon.png",
+	"galleryBanner": {
+  "color": "#1E1E1E",
+  "theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "'txt','conf'",
+				"aliases": [
+					"'plaintext', 'txt','conf','plain text'"
+				],
+				"extensions": [
+					".txt",
+					".conf"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "'txt','conf'",
+				"scopeName": "plaintext",
+				"path": "./syntaxes/'txt','conf'.tmLanguage.json"
+			}
+		]
+	}
+
+}
