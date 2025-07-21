@@ -11,11 +11,6 @@
 
 ---
 
-## Logo
-![Logo](icon.png)
-
----
-
 ## Example
 
 ### Before:
@@ -40,5 +35,5 @@ Use `Ctrl + /` (or `Cmd + /` on macOS) to toggle comments in plaintext files!
 
 ---
 
-[![Visual Studio Marketplace Version]](https://marketplace.visualstudio.com/items?itemName=MissinLinkk05551.plaintext-comment)
-[![GitHub]](https://github.com/MissinLinkk05551/vscode-plaintext-comment)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MissinLinkk05551.plaintext-comment.svg)](https://marketplace.visualstudio.com/items?itemName=MissinLinkk05551.plaintext-comment)
+[![GitHub](https://img.shields.io/github/license/MissinLinkk05551/vscode-plaintext-comment.svg)](https://github.com/MissinLinkk05551/vscode-plaintext-comment)
